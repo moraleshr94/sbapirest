@@ -1,0 +1,20 @@
+INSERT INTO ACCOUNT_LIST(ACCOUNTID,ACCOUNTCURRENCY,ACCOUNTNAME) VALUES
+(1,'MXN', 'UNO'),
+
+(2,'USD', 'DOS'),
+
+(3,'EUR', 'TRES'),
+
+(4,'GPB', 'CUATRO'),
+
+(5,'CHF', 'CINCO');
+INSERT INTO USER(USERID,ACCOUNTLIST,NAME) VALUES
+(1,1,'Andrea'),
+
+(2,2,'Gerardo'),
+
+(3,3,'Ana'),
+
+(4,4,'Pedro'),
+
+(5,5,'Sofia');
